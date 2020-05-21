@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Cacio" />
+    <meta name="description" content="sua descrição" />
+    <meta name="keywords" content="palavras chaves" />
+    <title>Modelo</title>
+
+    <style>
+        .div1{
+            width: 150px;
+            height: 150px;
+            background-color: rebeccapurple;
+            transform: translate(50px, 50px);
+
+            /* position: relative;
+            top: 50px;
+            left: 50px; */
+        }
+
+        .div2{
+            width: 150px;
+            height: 150px;
+            background-color: blue;
+            position: relative;
+            top: 5px;
+            left: 400px;
+        }
+
+        .div3{
+            width: 50%;
+            overflow: hidden;
+            border: solid 2px black;
+        }
+
+        .div3-interna{
+            background-color: yellow;
+            transform: translateX(80%, 25px);
+        }
+        
+        .div4{
+            width: 50%;
+            overflow: hidden;
+            border: solid 2px black;
+        }
+
+        .div4-interna{
+            background-color: yellow;
+            transform: rotate(25deg);
+        }
+        
+        .div5{
+            width: 50%;
+            overflow: hidden;
+            border: solid 2px black;
+        }
+
+        .div5-interna{
+            background-color: yellow;
+            transform: rotate(25deg);
+            transform-origin: left top;
+        }
+        
+        .div6{
+            width: 50%;
+            overflow: hidden;
+            border: solid 2px black;
+        }
+
+        .div6-interna{
+            background-color: yellow;
+            transform: rotate(30deg) translate(2px);            
+        }
+
+        .div7{
+            width: 50%;
+            overflow: hidden;
+            border: solid 2px black;
+        }
+
+        .div7-interna{
+            background-color: yellow;
+            transform: rotate(25deg);
+            transform-origin: left top;
+            transform: translate(2px) rotate(30deg);
+        }
+
+        .div9{
+            width: 100px;
+            height: 100px;
+            background-color: orange;
+            transform: skew(-10deg, 10deg);
+        }
+        
+        .div9{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            transform: scaleX(1.5)
+        }
+    </style>
+
+  <body>
+      <div class="div1">div1</div>
+      <div class="div2">div1</div>
+      <hr>
+      <div class="div3">
+          <div class="div3-interna">conteudo DIV</div>
+          <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, labore? Iste labore veniam distinctio ea aut. Rem sit, veritatis asperiores iure delectus quod, ad nisi, tempora ipsa blanditiis dignissimos esse.
+          </p>
+      </div>
+      <div class="div4">
+          <div class="div4-interna">conteudo DIV</div>
+          <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, labore? Iste labore veniam distinctio ea aut. Rem sit, veritatis asperiores iure delectus quod, ad nisi, tempora ipsa blanditiis dignissimos esse.
+          </p>
+      </div>
+      <div class="div5">
+          <div class="div5-interna">conteudo DIV</div>
+          <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, labore? Iste labore veniam distinctio ea aut. Rem sit, veritatis asperiores iure delectus quod, ad nisi, tempora ipsa blanditiis dignissimos esse.
+          </p>
+      </div>
+      <div class="div6">
+          <div class="div6-interna">conteudo DIV6</div>
+          <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, labore? Iste labore veniam distinctio ea aut. Rem sit, veritatis asperiores iure delectus quod, ad nisi, tempora ipsa blanditiis dignissimos esse.
+          </p>
+      </div>
+      <div class="div7">
+          <div class="div7-interna">conteudo DIV7</div>
+          <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, labore? Iste labore veniam distinctio ea aut. Rem sit, veritatis asperiores iure delectus quod, ad nisi, tempora ipsa blanditiis dignissimos esse.
+          </p>
+      </div>
+      <hr>
+      <div class="div8"></div>
+      <div class="div9"></div>
+  </body>
+</html>

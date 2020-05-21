@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Cacio">
+        <meta name="description" content="sua descrição">
+        <meta name="keywords" content="palavras chaves">
+        <title>Modelo</title>
+
+        <style>
+            div p:nth-of-type(){
+                color: red;
+            }
+
+            .destaque{
+                background: #ddd;
+            }
+
+            .destaque:nth-of-type(1){
+                color: green;
+            }
+
+            .destaque:first-child{
+                color: blue;
+            }
+
+            p:last-child{
+                text-align: center;
+            }
+        </style>
+        
+    </head>
+
+    <body>
+        <div>
+            <p class="destaque">Meu paragrafo</p>
+            <p>Meu paragrafo</p>
+            <hr>
+            <p class="destaque">Meu paragrafo</p>
+            <p>Meu paragrafo</p>
+            <hr>
+            <p class="destaque">Meu paragrafo</p>
+            <p>Meu paragrafo</p>
+            <hr>
+            <p>Meu paragrafo</p>
+            <p>Meu paragrafo</p>
+        </div>
+    </body>
+</html>

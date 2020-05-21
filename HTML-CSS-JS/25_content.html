@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Cacio">
+        <meta name="description" content="sua descrição">
+        <meta name="keywords" content="palavras chaves">
+        <title>Modelo</title>
+
+        <style>
+            div{
+                border: 2px solid blue;
+                padding: 25px;
+                position: relative;
+                margin: 25px;
+            }
+
+            div:before{
+                content: "before: ";
+                background: #ccc;
+            }
+
+            div:after{
+                content: "";
+                background: red;
+                width: 25px;
+                height: 25px;
+                display: inline-block;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+            }            
+        </style>
+        
+    </head>
+
+    <body>
+        
+        <div>texto principal da div</div>
+        
+        <article>
+            <p>Não recebe a formatação</p>
+            <h3>Título</h3>
+            <p>Paragrafo <a href="#">Apenas um link <b>negrito</b></a></p>
+            <p>Paragrafo <a href="#">Apenas um link <b>negrito</b></a></p>
+            <p>Paragrafo <a href="#">Apenas um link <b>negrito</b></a></p>
+        </article>
+
+        <ul>
+            <li><a href="#">Link falso</a></li>
+            <li><a href="#">Link falso</a></li>
+            <li><a href="http://serfrontend.com" target="_blank">Link externo</a></li>
+            <li><a href="23_transition.html" target="_blank" title="veja exercicio anterior">Link interno</a></li>
+            <li><a href="http://serfrontend.com/arquivo.pdf" target="_blank" title="veja exercicio anterior">Link interno</a></li>
+        </ul>
+    </body>
+</html>
